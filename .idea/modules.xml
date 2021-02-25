@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cms-public-common/cms-public-common.iml" filepath="$PROJECT_DIR$/cms-public-common/cms-public-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-public-gateway/cms-public-gateway.iml" filepath="$PROJECT_DIR$/cms-public-gateway/cms-public-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-public-openService/cms-public-openService.iml" filepath="$PROJECT_DIR$/cms-public-openService/cms-public-openService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-springcloud-alibaba.iml" filepath="$PROJECT_DIR$/cms-springcloud-alibaba.iml" />
+    </modules>
+  </component>
+</project>

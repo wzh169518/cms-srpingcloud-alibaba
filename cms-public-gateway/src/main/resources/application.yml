@@ -1,0 +1,26 @@
+server:
+  port: 30001
+spring:
+  profiles:
+    # dev、pro、test分别为：开发、生产、测试环境配置
+    active: dev
+  activiti:
+    # 自动部署验证设置:true-开启（默认）、false-关闭
+    check-process-definitions: false
+  application:
+    name: @project.artifactId@
+
+feign:
+  hystrix:
+    enabled: true
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 102240
+    response:
+      enabled: true
